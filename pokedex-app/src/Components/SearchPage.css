@@ -1,0 +1,44 @@
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .search-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  
+  .search-container button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .search-container p {
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  .pokemon-details{
+    background-color: #4caf50;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+  

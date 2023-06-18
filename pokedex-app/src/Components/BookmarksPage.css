@@ -1,0 +1,34 @@
+
+
+.bookmark-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.pokemon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.pokemon-card img {
+  width: 120px;
+  height: 120px;
+}
+
+.home-link {
+  margin-top: 20px;
+  text-decoration: none;
+  color: #0000ff;
+}
